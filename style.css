@@ -92,3 +92,21 @@ body {
 .card-container > div:hover {
     transform: scale(1.1);
 }
+
+/* footer */
+
+footer {
+    padding-right: 30%;
+}
+
+.footer-cont {
+    text-align: left;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+footer button {
+    border-style: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
