@@ -1,112 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  overflow-x: hidden;
 }
 
 body {
-    background-color: #141414;
+  background-color: #141414;
 }
 
 /* navbar */
 
 .logo {
-    width: 80px;
-    transition: transform 0.3s ease-in-out;
+  width: 80px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.nav-link, .nav-link:focus {
-    color: white;
-    transition: font-weight 0.1s ease-in-out;
+.nav-link,
+.nav-link:focus {
+  color: white;
+  transition: font-weight 0.1s ease-in-out;
 }
 
 .nav-link:hover {
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .user-icon {
-    width: 30px;
+  width: 30px;
 }
 
 .nav-cont-2 {
-    width: 130px;
+  width: 130px;
 }
 
 .nav-cont-2 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* main */
 
 .d-inline {
-    width: fit-content;
+  width: fit-content;
 }
 
 #dropdown {
-    border: 1px solid white;
-    background-color: black;
-    border-radius: 0;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 0;
 }
 
 .genres-cont-2 button {
-    background-color: rgb(47, 47, 47);
-    width: 25px;
-    height: 25px;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(47, 47, 47);
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* slides */
 
 .cont {
-    position: relative;
+  position: relative;
 }
 
 .carousel-item img {
-    width: 250px;
+  width: 250px;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 30px;
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 30px;
 }
 
 /* cards */
 
 .card-container > div {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card-container > div:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* footer */
 
 footer {
-    padding-right: 30%;
+  padding-right: 30%;
 }
 
 .footer-cont {
-    text-align: left;
-    width: fit-content;
-    margin: 0 auto;
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 footer button {
-    border-style: none;
-    border: 1px solid white;
-    border-radius: 5px;
+  border-style: none;
+  border: 1px solid white;
+  border-radius: 5px;
 }
